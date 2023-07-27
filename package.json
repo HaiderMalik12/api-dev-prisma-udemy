@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "prisma migrate reset -f",
     "dev": "nodemon --watch './**/*.ts' --exec 'ts-node' src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/src/index.js"
+    "start": "ts-node src/index.ts"
 
   },
   "keywords": [],
