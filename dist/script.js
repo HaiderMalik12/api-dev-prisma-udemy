@@ -88,4 +88,3 @@ main()
 // api/course PUT
 // api/course/id GET
 // api/course/id DELETE
-//# sourceMappingURL=script.js.map
